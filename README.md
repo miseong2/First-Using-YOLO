@@ -5,7 +5,7 @@
 
   pip install ultralytics opencv-python
 
-#How to Run
+# How to Run
 
   python test.py
 
@@ -15,11 +15,11 @@
 4. 탐지 결과를 시각화하여 실시간으로 화면에 출력
 5. 'q'를 누르면 종료
 
-#Files
+# Files
 - test.py: 메인 실행 코드
 - plane.mp4: 탐지 대상 영상
 - yolov8.pt: 사전 학습된 YOLOv8 가중치 파일
 
-#Notes
+# Notes
 - 프레임을 읽지 못할 경우 "프레임 읽기 실패!"출력 후 종료됩니다.
 - 'q'를 누르면 영상이 종료됩니다.
